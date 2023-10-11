@@ -25,7 +25,7 @@ num = int(input("Introduce el numero inicial de la serie: "))
 incremento = int(input("Introduce los saltos de la serie: "))
 totalSerie = int(input("Introduce el numero final de la serie: "))
 
-while incremento < 0 and totalSerie < 0:
+while incremento < 0 or totalSerie < 0:
     print("Por favor, introduce un valor correcto")
     incremento = int(input("Introduce los saltos de la serie: "))
     totalSerie = int(input("Introduce el numero final de la serie: "))
